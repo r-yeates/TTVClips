@@ -1,0 +1,117 @@
+{
+  "default": {
+    "CLIPS_AMOUNT": 5,
+    "PERIOD": 1,
+    "GAME_ID": 509658,
+    "BROADCASTER_ID": 71092938,
+    "UPLOAD_TO_YOUTUBE": false,
+    "UPLOAD_TO_TIKTOK": false,
+    "CLIPS_LANGUAGE": "en"
+  },
+  "clip_processing": {
+    "BATCH_PROCESSING": true
+  },
+  "subtitles": {
+    "ENABLE_SUBTITLES": true,
+    "WHISPER_MODEL_SIZE": "small",
+    "SUBTITLE_LANGUAGE": "en",
+    "BURN_SUBTITLES": true,
+    "SUBTITLE_FONT_SIZE": 32,
+    "SUBTITLE_COLOR": "white",
+    "SUBTITLE_OUTLINE_COLOR": "black",
+    "FONT_FILE": "C:/Windows/Fonts/arialbd.ttf",
+    "SUBTITLE_UPPERCASE": true,
+    "SUBTITLE_MAX_WORDS_PER_CHUNK": 3,
+    "SUBTITLE_MIN_DURATION": 0.5,
+    "SUBTITLE_POSITION_Y": 90,
+    "SUBTITLE_ALIGNMENT": 2
+  },
+  "title_style": {
+    "STYLE": "meme",
+    "FONT_SIZE_MULTIPLIER": 0.05,
+    "BORDER_WIDTH": 5,
+    "TEXT_COLOR": "white",
+    "BORDER_COLOR": "black",
+    "ADD_SHADOW": true,
+    "SHADOW_OFFSET": 2,
+    "SHADOW_COLOR": "black@0.5",
+    "MARGIN_PERCENT": 0.10
+  },
+  "video": {
+    "BACKGROUND_TYPE": "blurred",
+    "VIDEO_WIDTH": 1080,
+    "VIDEO_HEIGHT": 1920,
+    "MAIN_VIDEO_Y_POSITION": 400,
+    "GRADIENT_COLOR": "0x1a1a2e",
+    "SOLID_BACKGROUND_COLOR": "#1a1a2e",
+    "BLUR_SIGMA_1": 10,
+    "BLUR_SIGMA_2": 15,
+    "BACKGROUND_BRIGHTNESS": -0.1,
+    "ENABLE_CROP": true,
+    "CROP_PERCENTAGE": 10,
+    "CROP_FROM_SIDES": true
+  },
+  "encoding": {
+    "VIDEO_CODEC": "libx264",
+    "PRESET": "medium",
+    "CRF": "18",
+    "FRAMERATE": "30",
+    "PROFILE": "high",
+    "TUNE": "film",
+    "AUDIO_CODEC": "aac",
+    "AUDIO_BITRATE": "192k",
+    "MAX_DURATION_SECONDS": 59,
+    "PROCESSING_TIMEOUT": 300,
+    "AUDIO_EXTRACTION_TIMEOUT": 60
+  },
+  "fonts": {
+    "DEFAULT_FONT_PATH": "C:/Windows/Fonts/arialbd.ttf",
+    "FONT_PRIORITIES": [
+      "C:/Windows/Fonts/ariblk.ttf",
+      "C:/Windows/Fonts/impact.ttf", 
+      "C:/Windows/Fonts/arialbd.ttf",
+      "C:/Windows/Fonts/arial.ttf"
+    ]
+  },
+  "title_positioning": {
+    "DEFAULT_FONT_SIZE": 60,
+    "SINGLE_LINE_Y": 200,
+    "TWO_LINE_Y_START": 170,
+    "TWO_LINE_Y_SPACING": 70,
+    "THREE_LINE_Y_START": 140,
+    "THREE_LINE_Y_SPACING": 60,
+    "CHANNEL_NAME_Y_OFFSET": 150,
+    "CHANNEL_NAME_FONT_SIZE": 36
+  },
+  "audio_processing": {
+    "SAMPLE_RATE": "16000",
+    "AUDIO_CODEC": "pcm_s16le",
+    "CHANNELS": "1",
+    "WHISPER_CPU_THREADS": 4
+  },
+  "paths": {
+    "LOG_FILE": "config/app.log",
+    "YOUTUBE_COOKIES": "config/yt_cookies.txt",
+    "TIKTOK_COOKIES": "config/tt_cookies.txt",
+    "CLIPS_FOLDER": "clips",
+    "TEMP_SUBTITLE_PREFIX": "temp_subtitles_",
+    "TEMP_AUDIO_SUFFIX": "_audio.wav",
+    "RENDERED_SUFFIX": "_rendered.mp4"
+  },
+  "upload_scheduling": {
+    "INITIAL_DELAY_MINUTES": 30,
+    "INTERVAL_MINUTES": 30
+  },
+  "watermark": {
+    "ENABLE_WATERMARK": true,
+    "WATERMARK_TEXT": "@TTVTopClips",
+    "WATERMARK_FONT_SIZE": 24,
+    "WATERMARK_COLOR": "white@0.7",
+    "WATERMARK_POSITION": "bottom_left",
+    "WATERMARK_MARGIN_X": 20,
+    "WATERMARK_MARGIN_Y": 20
+  },
+  "blacklist": {
+    "CHANNELS": ["JenFoxxx", "StrawberryTabby", "firedancer", "gogirl_tv", "GloriaMatvien", "dinalateroff"]
+  }
+}

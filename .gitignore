@@ -1,0 +1,13 @@
+clips/
+geckodriver.log
+config/access_token.txt
+config/app.log
+config/cookies.txt
+config/yt_cookies.txt
+config/tt_cookies.txt
+config/secrets.json
+__pycache__/
+*/__pycache__/
+*.pyc
+.DS_Store
+*/.DS_Store
