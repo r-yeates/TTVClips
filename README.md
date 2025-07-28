@@ -9,7 +9,7 @@ TTVClips is a Python script for downloading Twitch clips, rendering them into a 
 Clone the project
 
 ```bash
-  git clone https://github.com/ryeates/TwitchClips.git
+  git clone https://github.com/ryeates/TTVClips.git
 ```
 
 Install dependencies
